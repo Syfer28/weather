@@ -1,5 +1,21 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #E4EAF2;
+}
+
+.App {
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    min-height: 100vh;
+}
+
 .container {
     font-family: Oswald, sans-serif;
     width: 40%;
     margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
 }
