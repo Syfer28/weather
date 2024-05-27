@@ -4,6 +4,7 @@ import { GoogleMap, LoadScript } from "@react-google-maps/api";
 const containerStyle = {
   width: "100%",
   height: "50vh",
+  borderRadius: "5px",
 };
 
 const center = {
@@ -12,8 +13,11 @@ const center = {
 };
 
 const options = {
-  draggableCursor: "pointer", // курсор в виде пальца
-  draggingCursor: "grab", // курсор в виде ладони при перетаскивании
+  draggableCursor: "pointer",
+  draggingCursor: "grab",
+  streetViewControl: false,
+  mapTypeControl: false,
+  fullscreenControl: false,
 };
 
 const Map = ({ setCoord }) => {
