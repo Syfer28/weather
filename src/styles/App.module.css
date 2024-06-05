@@ -19,3 +19,20 @@ html, body {
     padding: 20px;
     border-radius: 10px;
 }
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 80%;
+    }
+}
